@@ -1,0 +1,22 @@
+### User Creation Request
+POST http://localhost:8080/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImJhNjI1OTZmNTJmNTJlZDQ0MDQ5Mzk2YmU3ZGYzNGQyYzY0ZjQ1M2UiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYXV0aGFwcC1jMWY4NiIsImF1ZCI6ImF1dGhhcHAtYzFmODYiLCJhdXRoX3RpbWUiOjE3MTE2NjgzNDQsInVzZXJfaWQiOiJWS2lIWkZIZWNyZEhZRnVVaE94eVlsODBuZmoyIiwic3ViIjoiVktpSFpGSGVjcmRIWUZ1VWhPeHlZbDgwbmZqMiIsImlhdCI6MTcxMTY2ODM0NCwiZXhwIjoxNzExNjcxOTQ0LCJlbWFpbCI6ImFkbWluQGdtLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJhZG1pbkBnbS5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.CipuYSxCf_-o8yw9ElcTROo23sTGlPWgBjSVJizmNxkLKtpg0fMBttyFiqZg6z92BbiV3P6tFDDXn6Cp8SS04je1cmYlPWoX7M4VzgPFHWzyTFs2g-yZ6K6wWg0VqFf4F4IRZLeSE9fk9B0DLE8Q06UTalhe8jw2OV777IFKAl-ECr7OfrSHSA9b6exD4BKdVRs9YKHhxzohiciFQkVeTAQQT96pdxtDdJg5qFbZ4VlF9uiCmPLZs_Nw7yOS-2P2jcWrbNV2Z8k_FVjjUJK12YRjHRAolMGYF2dJuVdGSpFdsIRRa0fXTdKAqjj4Kz8Ad_FFJpKNRTUa47MOLO6cMA
+
+{
+   "name": "child Name",
+      "birth": "2023-10-05",
+      "address":"123/A, Kandy, Sri Lanka",
+      "email":"mom1@gmail.com",
+      "gender": 0,
+      "mother": {
+        "name": "motherName",
+        "nic": "1565464478",
+        "contact": "0123456789",
+        "birth": "2020-01-05"
+      },
+      "fHDOfficer": {
+        "registerNo": "FHM0001",
+        "division": "Kandy"
+      }
+}
